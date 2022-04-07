@@ -1,0 +1,27 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+  width:100%;
+}
+
+nav {
+  width:200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav>a {
+  color: #FF6060;
+  text-decoration: none;
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+}
+
+nav>a:hover {
+  text-decoration: underline;
+}
+  

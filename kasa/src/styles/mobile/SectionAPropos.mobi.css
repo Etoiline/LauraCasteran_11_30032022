@@ -1,0 +1,16 @@
+@media (max-width: 767px) {
+  .section>h1 {
+    text-align: left;
+    margin-left:10px;
+    font-size: 24px;
+  }
+
+  .section {
+    background: url('../../assets/aPropos.mobi.png') no-repeat center ;
+    justify-content: left;
+    height:120px;
+    margin-bottom: 30px;
+  }
+}
+
+

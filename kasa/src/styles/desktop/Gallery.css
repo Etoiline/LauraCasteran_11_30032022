@@ -1,0 +1,15 @@
+.gallery{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background: #F7F7F7;
+  border-radius: 25px;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 767px) {
+  .gallery {
+    border: none;
+    background: none;
+  }
+}

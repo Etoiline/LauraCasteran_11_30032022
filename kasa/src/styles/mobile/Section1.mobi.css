@@ -1,0 +1,15 @@
+@media (max-width: 767px) {
+  .section1>h1 {
+    text-align: left;
+    margin-left:10px;
+    font-size: 24px;
+  }
+
+  .section1 {
+    justify-content: left;
+    height:120px;
+    margin-bottom: 30px;
+  }
+}
+
+
