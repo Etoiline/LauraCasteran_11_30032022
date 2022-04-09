@@ -7,9 +7,6 @@
   margin-bottom: 40px;
 }
 
-@media (max-width: 767px) {
-  .gallery {
-    border: none;
-    background: none;
-  }
+.gallery>a {
+  text-decoration: none;
 }

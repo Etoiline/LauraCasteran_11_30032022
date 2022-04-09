@@ -1,0 +1,14 @@
+.dropdown {
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown-about {
+  width:100%;
+  background-color: #FF6060;
+}
+
+#dropdown-item-button {
+  background-color: #FF6060;
+  border : none;
+}

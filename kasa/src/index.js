@@ -5,10 +5,11 @@ import './styles/desktop/index.css'
 import './styles/mobile/index.mobi.css'
 import Home from './pages/home/Home'
 import Template from './component/Template'
-import Error from './component/Error'
+import Error from './pages/error/Error.js'
 import APropos from './pages/a_propos/APropos'
+import Logement from './pages/logement/Logement'
 import 'bootstrap/dist/css/bootstrap.min.css'
-// import reportWebVitals from './reportWebVitals'
+
 
 
 
@@ -20,6 +21,7 @@ ReactDOM.render(
         <Route index element={<Home />} />
         <Route path ='*' element= {<Error />} />
         <Route path ='/about' element= {<APropos />} />
+        <Route path="/logement/:idLogement" element={<Logement />} />
       </Route>
       </Routes>
     </Router>

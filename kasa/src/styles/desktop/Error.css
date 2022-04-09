@@ -1,0 +1,25 @@
+.error {
+  /* font-family: 'Montserrat'; */
+  color:#FF6060;
+  text-align: center;
+}
+
+.errorCode {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 288px;
+}
+
+.errorText {
+  font-style: normal;
+font-weight: 500;
+font-size: 36px;
+margin-bottom: 50px;
+}
+
+.errorLink {
+  display:block;
+  margin-top:40px;
+  color:#FF6060;
+  margin-bottom: 40px;
+}
