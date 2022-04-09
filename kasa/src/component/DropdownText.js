@@ -1,4 +1,4 @@
-//import Background from "../assets/Background.png"
+
 import "../styles/desktop/DropdownText.css"
 import "../styles/mobile/DropdownText.mobi.css"
 import React from 'react'

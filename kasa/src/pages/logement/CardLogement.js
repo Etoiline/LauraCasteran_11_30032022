@@ -11,9 +11,10 @@ function rating(rate) {
 function CardLogement (props) {
   console.log(props.logement)
   const rating = props.logement.rating
+  console.log(rating)
   return (
     <div>
-      <img scr={'https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg'} alt='image' />
+      <img scr='https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg' alt='image' />
     <section className='presentation'>
       <div>
         <h1>{props.logement.title}</h1>
