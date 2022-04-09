@@ -3,9 +3,6 @@ import '../../styles/mobile/CardLogement.mobi.css'
 import React from 'react'
 import RateLogement from './RateLogement'
 
-function rating(rate) {
-
-}
 
 
 function CardLogement (props) {
@@ -14,7 +11,7 @@ function CardLogement (props) {
   console.log(rating)
   return (
     <div>
-      <img scr='https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg' alt='image' />
+      <img scr={props.logement.pictures[0]} alt='logement' />
     <section className='presentation'>
       <div>
         <h1>{props.logement.title}</h1>
@@ -22,7 +19,7 @@ function CardLogement (props) {
       </div>
       <div>
         <p>{props.logement.host.name}</p>
-        <img src={props.logement.host.cover} />
+        <img src={props.logement.host.picture} alt='prorpiétaire' />
       </div>
     </section>
     <section className= "tagRate">

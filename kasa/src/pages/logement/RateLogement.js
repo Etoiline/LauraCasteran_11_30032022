@@ -8,9 +8,9 @@ function RateLogement(rate) {
 
   return (
   <div>
-    {range.map((rangeElt) => 
+    {range.map((rangeElt, index) => 
       rate.rate>=rangeElt ? (
-        <i class="bi bi-star-fill"></i>) : <i class="bi bi-star"></i>
+        <i key={index} className="bi bi-star-fill"></i>) : <i key={index} className="bi bi-star"></i>
       )}
   </div>
   )
