@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-between;
   color : #FF6060;
+  margin-top: 30px;
 }
 
 .tagRate {
@@ -20,5 +21,29 @@
   padding-left: 40px;
   padding-right: 40px;
   margin-left: 0;
+  margin-right: 10px;
+}
+
+.proprietaire {
+  display : flex;
+}
+
+
+.proprietaire img {
+  border-radius: 50%;
+  object-fit: cover;
+  width:80px;
+  height:80px;
+}
+
+.proprietaire p {
+  width:95px;
+  margin-bottom: 0;
+}
+
+.proprietaire_name{
+  display: flex;
+  flex-direction: column;
+  text-align: right;
   margin-right: 10px;
 }

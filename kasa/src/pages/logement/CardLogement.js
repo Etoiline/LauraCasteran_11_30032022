@@ -8,17 +8,22 @@ import RateLogement from './RateLogement'
 function CardLogement (props) {
   console.log(props.logement)
   const rating = props.logement.rating
-  console.log(rating)
+  const name = props.logement.host.name.split(' ')
+  console.log(name)
   return (
     <div>
-      <img scr={props.logement.pictures[0]} alt='logement' />
+      <img src={props.logement.pictures[0]} alt='logement' />
     <section className='presentation'>
       <div>
         <h1>{props.logement.title}</h1>
         <p>{props.logement.location}</p>
       </div>
-      <div>
-        <p>{props.logement.host.name}</p>
+      <div className='proprietaire'>
+        <div className='proprietaire_name'>
+          {name.map((elt, index) => (
+            <p key={index}>{elt}</p>
+          ))}
+        </div>
         <img src={props.logement.host.picture} alt='prorpiétaire' />
       </div>
     </section>

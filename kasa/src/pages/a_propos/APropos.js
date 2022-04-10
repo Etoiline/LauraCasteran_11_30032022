@@ -1,13 +1,16 @@
 import React from 'react'
 import Section from './Section'
-import DropdownText from '../../component/DropdownText'
+import Collapse from '../../component/Collapse'
 
 
 function APropos () {
+  const textes = require ('../../data/textes_a_propos.json')
   return (
     <div>
       <Section />
-      <DropdownText />
+      {textes.map((texte, index) => (
+            <Collapse key={index} elt={texte}/>
+          ))}
     </div> 
     )
 

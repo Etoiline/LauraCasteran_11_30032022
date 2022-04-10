@@ -8,7 +8,7 @@ import Template from './component/Template'
 import Error from './pages/error/Error.js'
 import APropos from './pages/a_propos/APropos'
 import Logement from './pages/logement/Logement'
-import 'bootstrap/dist/css/bootstrap.min.css'
+
 
 
 
