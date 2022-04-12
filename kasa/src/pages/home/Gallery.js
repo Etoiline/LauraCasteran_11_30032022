@@ -1,5 +1,6 @@
 import Thumb from './Thumb'
 import '../../styles/desktop/Gallery.css'
+import '../../styles/mobile/Gallery.mobi.css'
 import React from 'react'
 
 

@@ -1,0 +1,10 @@
+@media (max-width: 767px) {
+
+.aPropos .collapse-button {
+  font-size: 13px;
+}
+
+.aPropos .collapse-content {
+  font-size: 12px;
+}
+}

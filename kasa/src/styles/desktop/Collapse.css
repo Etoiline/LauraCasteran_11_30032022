@@ -1,10 +1,10 @@
-#collapse.collapse {
+ #collapse.collapse {
   display: block;
-  margin-bottom: 20px;
+  /* margin-bottom: 30px;
   width:70%;
   margin-left: auto;
-  margin-right: auto;
-}
+  margin-right: auto; */
+} 
 
 .collapse-button {
   display: block;
@@ -13,11 +13,20 @@
   color:white;
   border: none;
   border-radius: 5px;
-  text-align: left;
+  /*  text-align: left;
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
-  padding-left: 18px;
+  padding-left: 18px; */
+}
+
+.collapse-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.collapse-title p {
+  margin : 0;
 }
 
 .collapse-content.collapsed {
@@ -35,8 +44,8 @@
   padding-right: 18px;
   padding-bottom: 18px;
   padding-top: 27px;
-  font-weight: 400;
-  font-size: 24px;
+  /* font-weight: 400;
+  font-size: 24px; */
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
-}
+} 

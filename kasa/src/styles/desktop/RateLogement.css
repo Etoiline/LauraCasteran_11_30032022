@@ -1,3 +1,8 @@
 .bi-star-fill, .bi-star {
   color:#FF6060;
 }
+
+.rate {
+  text-align: right;
+  font-size:30px;
+}

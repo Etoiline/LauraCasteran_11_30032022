@@ -1,0 +1,12 @@
+@media (max-width: 767px) {
+  .errorCode {
+    font-style: bold;
+    font-weight: 700;
+    font-size: 96px;
+  }
+
+  .errorText {
+  font-size: 18px;
+  }
+  
+  }

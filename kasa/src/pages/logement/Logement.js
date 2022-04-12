@@ -1,19 +1,26 @@
 import React from 'react'
-import { useParams } from 'react-router-dom'
+import { Navigate, useParams } from 'react-router-dom'
 import { useLogement } from '../../hooks/data'
-import CardLogement from './CardLogement'
+import CardLogement from '../../component/CardLogement'
+
 
 
 
 function Logement() {
   const { idLogement } = useParams()
   const {loading, data, error} = useLogement(idLogement)
-  //console.log('id', idLogement)
-  //const { idLogement } = useParams()
 
+  const ShowData = () => {
+    if (error){
+      return <Navigate to={'/404'} />
+    }
+    else {
+      return <CardLogement logement={data} />
+    }
+  }
   return (
   <div>
-    {!loading ? <CardLogement logement={data} /> : <></>}
+    {!loading ? <ShowData /> : <></>}
   </div>
   )
 }

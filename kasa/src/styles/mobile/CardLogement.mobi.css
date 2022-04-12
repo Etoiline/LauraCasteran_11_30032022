@@ -1,0 +1,56 @@
+@media (max-width: 767px) {
+
+.presentation {
+  display: block !important;
+  margin-bottom: 20px;
+}
+
+.presentation_logement h1 {
+  font-size: 18px;
+}
+
+.presentation_logement>p {
+  font-size: 14px;
+}
+
+.tags p {
+  font-size: 10px;
+}
+
+.tag {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 0;
+  margin-right: 10px;
+}
+
+.presentation_proprietaire {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rate {
+  font-size:16px!important;
+}
+
+.presentation_proprietaire img {
+  width: 35px !important;
+  height: 35px !important;
+}
+
+.proprietaire_name>p {
+  font-size:12px;
+}
+
+.cardLogement_collapse {
+  flex-direction: column;
+}
+
+.cardLogement_collapse #collapse {
+  margin-bottom: 8px;
+  width:100%;
+}
+
+}

@@ -40,8 +40,14 @@ useEffect(()=> {
       const response = await fetch(process.env.PUBLIC_URL+'/logements.json')
       const logements = await response.json()
       const logementData = logements.find(function (logement) { return logement.id === id })
+      if (logementData){
+        setData(logementData)
+      }
+      else {
+        setError('id incorrect')
+      }
       //console.log(logements)
-      setData(logementData)
+      
       setLoading(false)
     } catch (err) {
       setError(err)

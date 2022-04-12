@@ -1,3 +1,10 @@
+/* .cardLogement img {
+  border-radius: 5px;
+  height : 420px;
+  width:100%;
+  object-fit: cover;
+} */
+
 .presentation {
   display: flex;
   justify-content: space-between;
@@ -8,6 +15,7 @@
 .tagRate {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 20px;
 }
 
 .tags{
@@ -24,19 +32,19 @@
   margin-right: 10px;
 }
 
-.proprietaire {
+.presentation_proprietaire_identite {
   display : flex;
 }
 
 
-.proprietaire img {
+.presentation_proprietaire img {
   border-radius: 50%;
   object-fit: cover;
   width:80px;
   height:80px;
 }
 
-.proprietaire p {
+.presentation_proprietaire p {
   width:95px;
   margin-bottom: 0;
 }
@@ -46,4 +54,22 @@
   flex-direction: column;
   text-align: right;
   margin-right: 10px;
+}
+
+.cardLogement_collapse {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.cardLogement_collapse #collapse {
+  width:40%;
+}
+
+.cardLogement_collapse .collapse-button {
+  height:52px;
+}
+
+.collapse-content {
+  white-space: break-spaces;
 }
