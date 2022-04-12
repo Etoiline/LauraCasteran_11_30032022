@@ -21,8 +21,9 @@ function Logement() {
   return (
   <div>
     {!loading ? <ShowData /> : <></>}
-  </div>
+    </div>
   )
 }
+
 
 export default Logement

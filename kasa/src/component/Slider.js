@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import BtnSlider from './BtnSlider'
 import '../styles/desktop/Slider.css'
+import '../styles/mobile/Slider.mobi.css'
 
 function Slider(props) {
   const [slideIndex, setSlideIndex] = useState(1)
