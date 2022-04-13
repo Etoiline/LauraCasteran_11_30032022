@@ -3,4 +3,9 @@
     border: none;
     background: none;
   }
+
+  .gallery>a {
+    height:250px;
+    margin-bottom: 20px;
+  }
 }

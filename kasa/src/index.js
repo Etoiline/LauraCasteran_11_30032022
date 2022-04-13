@@ -11,8 +11,6 @@ import Logement from './pages/logement/Logement'
 
 
 
-
-
 ReactDOM.render(
   <React.StrictMode>
     <Router>

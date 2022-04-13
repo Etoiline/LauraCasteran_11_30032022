@@ -3,9 +3,6 @@ import { Navigate, useParams } from 'react-router-dom'
 import { useLogement } from '../../hooks/data'
 import CardLogement from '../../component/CardLogement'
 
-
-
-
 function Logement() {
   const { idLogement } = useParams()
   const {loading, data, error} = useLogement(idLogement)
