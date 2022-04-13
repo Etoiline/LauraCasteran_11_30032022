@@ -1,13 +1,3 @@
-.cardLogement {
-  /* width:100%; */
-}
-/* .cardLogement img {
-  border-radius: 5px;
-  height : 420px;
-  width:100%;
-  object-fit: cover;
-} */
-
 .presentation {
   display: flex;
   justify-content: space-between;

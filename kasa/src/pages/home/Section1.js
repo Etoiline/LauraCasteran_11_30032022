@@ -6,7 +6,6 @@ import React from 'react'
 function Section1 (){
   return (
     <div className="section1">
-      {/* <img src={Background} alt="background" /> */}
       <h1>Chez vous, partout et ailleurs</h1>
     </div>
   )

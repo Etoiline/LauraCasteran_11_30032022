@@ -32,7 +32,7 @@ return (
               className={slideIndex === index + 1 ? "slide active-anim" : "slide"}
               >
                   <img 
-                  src={image} 
+                  src={image} alt='intérieur logement'
                   />
               </div>
           )

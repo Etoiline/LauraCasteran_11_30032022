@@ -3,6 +3,11 @@ import "../../styles/desktop/Error.css"
 import "../../styles/mobile/Error.mobi.css"
 import { Link } from 'react-router-dom'
 
+/*
+* Page d'erreur. 
+* Cette page s'affiche lorsqu'une URL incorrecte est entrée
+*/
+
 function Error() {
   return (
     <div className = 'error'>

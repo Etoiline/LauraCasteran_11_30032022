@@ -2,7 +2,7 @@ import React from "react"
 import '../styles/desktop/Slider.css'
 
 function BtnSlider({ direction, moveSlide }) {
-  console.log(direction, moveSlide);
+  //console.log(direction, moveSlide);
   return (
     <button onClick={moveSlide}
       className={direction === "next" ? "btn-slide next" : "btn-slide prev"}

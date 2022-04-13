@@ -1,5 +1,12 @@
 import { useEffect, useState } from "react";
 
+/*
+** useData retourne 3 variables : 
+      loading : indique si le chargement a terminé
+      data : contient les données récupérées (ici les logements)
+      error : variable utilisée en cas d'erreur
+*/
+
 export const useData = () => {
   const [loading, setLoading] = useState(true)
   const [data, setData] = useState([]) 
@@ -28,6 +35,14 @@ load()
     error
   }
 }
+
+/*
+** useLogement prend en paramètre l'id d'un logement. La fonction retourne 3 variables : 
+      loading : indique si le chargement a terminé
+      data : contient les données récupérées (ici les données concernant le logement dont l'id est en paramètre)
+      error : variable utilisée en cas d'erreur  (ici par exemple si un id incorrect est en paramètre)
+*/
+
 
 export const useLogement = (id) => {
   const [loading, setLoading] = useState(true)

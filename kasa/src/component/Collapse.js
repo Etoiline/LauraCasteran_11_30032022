@@ -5,7 +5,7 @@ import React from 'react'
 
 
 function Collapse (props){
-  console.log('content', props.elt[1])
+  //console.log('content', props.elt[1])
   const collapsed = true
   const [isCollapsed, setIsCollapsed] = React.useState(collapsed);
   return (

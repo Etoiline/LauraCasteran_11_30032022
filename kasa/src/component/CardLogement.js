@@ -8,10 +8,9 @@ import Slider from './Slider'
 
 
 function CardLogement (props) {
-  console.log('equipement',props.logement.equipments)
+  //console.log('equipement',props.logement.equipments)
   const name = props.logement.host.name.split(' ')
   const equipments = props.logement.equipments.join('\n')
-  console.log(name)
   return (
     <div className='cardLogement'>
       <Slider images={props.logement.pictures} />

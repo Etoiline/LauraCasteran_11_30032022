@@ -5,7 +5,6 @@ import { Link } from 'react-router-dom'
 
 function Thumb ({id,cover, name}) {
   const urlLogement = '/logement/'+id
-  console.log('cover', cover)
   return (
     <Link to={urlLogement} >
       <figure className='thumb'>
