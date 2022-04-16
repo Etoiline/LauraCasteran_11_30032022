@@ -1,4 +1,4 @@
-import '../styles/desktop/RateLogement.css'
+import '../../styles/desktop/RateLogement.css'
 import React from 'react'
 
 
@@ -10,7 +10,7 @@ function RateLogement(rate) {
   <div className='rate'>
     {range.map((rangeElt, index) => 
       rate.rate>=rangeElt ? (
-        <i key={index} className="bi bi-star-fill"></i>) : <i key={index} className="bi bi-star"></i>
+        <i key={index}  className="fa-solid fa-star"></i>) : <i key={index}  className="fa-regular fa-star"></i>
       )}
   </div>
   )

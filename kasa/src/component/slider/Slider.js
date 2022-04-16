@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import BtnSlider from './BtnSlider'
-import '../styles/desktop/Slider.css'
-import '../styles/mobile/Slider.mobi.css'
+import '../../styles/desktop/Slider.css'
+import '../../styles/mobile/Slider.mobi.css'
 
 function Slider(props) {
   const [slideIndex, setSlideIndex] = useState(1)
@@ -22,19 +22,19 @@ const prevSlide = () => {
         setSlideIndex(props.images.length)
     }
 }
-
 return (
   <div className="container-slider">
       {props.images.map((image, index) => {
           return (
-              <div
+              <figure
               key={index}
               className={slideIndex === index + 1 ? "slide active-anim" : "slide"}
               >
                   <img 
                   src={image} alt='intérieur logement'
                   />
-              </div>
+                  <figcaption>{index+1}/{props.images.length}</figcaption>
+              </figure>
           )
       })}
       <BtnSlider moveSlide={nextSlide} direction={"next"} />

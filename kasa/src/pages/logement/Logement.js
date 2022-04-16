@@ -1,7 +1,7 @@
 import React from 'react'
 import { Navigate, useParams } from 'react-router-dom'
 import { useLogement } from '../../hooks/data'
-import CardLogement from '../../component/CardLogement'
+import CardLogement from '../../component/logement/CardLogement'
 
 /*
 * Page logement. 

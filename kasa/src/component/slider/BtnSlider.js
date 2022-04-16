@@ -1,5 +1,5 @@
 import React from "react"
-import '../styles/desktop/Slider.css'
+import '../../styles/desktop/Slider.css'
 
 function BtnSlider({ direction, moveSlide }) {
   //console.log(direction, moveSlide);
@@ -7,7 +7,7 @@ function BtnSlider({ direction, moveSlide }) {
     <button onClick={moveSlide}
       className={direction === "next" ? "btn-slide next" : "btn-slide prev"}
     >
-      {direction === "next" ? <i className="bi bi-chevron-right"></i> : <i className="bi bi-chevron-left"></i>}
+      {direction === "next" ? <i className="fa-solid fa-chevron-right"></i> : <i className="fa-solid fa-chevron-left"></i>}
     </button>
   )
 }

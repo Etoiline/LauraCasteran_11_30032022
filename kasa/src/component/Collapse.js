@@ -12,7 +12,7 @@ function Collapse (props){
     <div id='collapse' className="collapse">
       <button className="collapse-button" onClick={() => setIsCollapsed(!isCollapsed)} >
         <div className="collapse-title">
-          <p>{props.elt[0]}</p><p>{isCollapsed ? <i className="bi bi-chevron-down"></i> : <i className="bi bi-chevron-up"></i>}</p>
+          <p>{props.elt[0]}</p>{isCollapsed ? <i className="fa-solid fa-chevron-down"></i> : <i className="fa-solid fa-chevron-up"></i>}
         </div>
       </button>
       <div className={`collapse-content ${isCollapsed ? 'collapsed' : 'expanded'}`} aria-expanded={isCollapsed} >

@@ -1,9 +1,9 @@
-import '../styles/desktop/CardLogement.css'
-import '../styles/mobile/CardLogement.mobi.css'
+import '../../styles/desktop/CardLogement.css'
+import '../../styles/mobile/CardLogement.mobi.css'
 import React from 'react'
 import RateLogement from './RateLogement'
-import Collapse from './Collapse'
-import Slider from './Slider'
+import Collapse from '../Collapse'
+import Slider from '../slider/Slider'
 
 
 

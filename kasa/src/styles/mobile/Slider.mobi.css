@@ -10,10 +10,15 @@
   }
   .prev {
     top: 50%;
-    left: 15px;
+    left: 35px;
   }
   .next {
     top: 50%;
-    right: 15px;
+    right: 25px;
   }
+
+  .slide figcaption {
+    margin-top:-2rem;
+  }
+
 }

@@ -6,6 +6,7 @@
 .slide {
   width:0px;
   height:0px;
+  margin:0px;
   opacity: 0;
   transition: opacity ease-in-out 0.4s;
 }
@@ -15,6 +16,16 @@
   object-fit: cover;
   border-radius: 5px;
 }
+
+.slide figcaption {
+  font-size: 18px;
+	margin-top:-2rem;
+	text-align:center;
+	letter-spacing: 0.05em;
+	word-spacing: 0.05em;
+	color: white;
+}
+
 .slide.active-anim {
   opacity: 1;
   width: 100%;
@@ -24,15 +35,7 @@
 .btn-slide {
   background: none;
   border: none;
-  /* width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  background: #f1f1f1;
-  border: 1px solid rgba(34, 34, 34, 0.287); */
   position: absolute;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
   cursor: pointer;
 }
 
@@ -42,7 +45,7 @@
 }
 .prev {
   top: 60%;
-  left: 50px;
+  left: 70px;
 }
 .next {
   top: 60%;
