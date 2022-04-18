@@ -5,6 +5,7 @@ import React from 'react'
 
 
 function Gallery (props) {
+  console.log(props.logements)
   return (
     <div className='gallery'>
       {props.logements.map((logement)=> (

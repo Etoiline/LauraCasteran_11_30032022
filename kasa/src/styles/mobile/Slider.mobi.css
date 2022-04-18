@@ -9,11 +9,11 @@
     height: 255px;
   }
   .prev {
-    top: 50%;
+    top:15em;
     left: 35px;
   }
   .next {
-    top: 50%;
+    top:15em;
     right: 25px;
   }
 
