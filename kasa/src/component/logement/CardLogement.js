@@ -11,9 +11,23 @@ function CardLogement (props) {
   //console.log('equipement',props.logement.equipments)
   const name = props.logement.host.name.split(' ')
   const equipments = props.logement.equipments.join('\n')
+  if(props.logement.pictures.length===1){
+    console.log('juste 1 image')
+    console.log(props.logement.pictures)
+  }
+  const ShowSlide = () => {
+    if (props.logement.pictures.length===1){
+      console.log(props.logement.pictures)
+      return <img className='cardLogement__img' src={props.logement.pictures} alt='intérieur logement' />
+    }
+    else {
+      return <Slider images={props.logement.pictures} />
+    }
+  }
+  
   return (
     <div className='cardLogement'>
-      <Slider images={props.logement.pictures} />
+      <ShowSlide />
     <section className='presentation'>
       <div className='presentation_logement'>
         <h1>{props.logement.title}</h1>

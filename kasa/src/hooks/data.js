@@ -13,6 +13,7 @@ export const useData = () => {
   const [error, setError] = useState(undefined)
 
 useEffect(()=> {
+  console.log('logement', data)
   const load = async () => {
     try {
       const response = await fetch(process.env.PUBLIC_URL+'/logements.json')

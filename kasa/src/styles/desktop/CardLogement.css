@@ -66,3 +66,10 @@
 .collapse-content {
   white-space: break-spaces;
 }
+
+.cardLogement__img{
+  width:100%;
+  object-fit: cover;
+  border-radius: 5px;
+  height:420px;
+}
