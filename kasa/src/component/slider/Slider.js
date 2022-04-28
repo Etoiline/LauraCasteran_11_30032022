@@ -3,6 +3,8 @@ import BtnSlider from './BtnSlider'
 import '../../styles/desktop/Slider.css'
 import '../../styles/mobile/Slider.mobi.css'
 
+/* Composant affichant le slide des images dans la page d'un logement */
+
 function Slider(props) {
   const [slideIndex, setSlideIndex] = useState(1)
   const nextSlide = () => {

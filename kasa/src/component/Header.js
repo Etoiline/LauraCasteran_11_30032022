@@ -4,6 +4,8 @@ import '../styles/mobile/Header.mobi.css'
 import React from 'react'
 import { Link } from 'react-router-dom'
 
+/* Header de toute les pages du site.
+Il contient le logo et le menu */
 
 function Header() {
   return (

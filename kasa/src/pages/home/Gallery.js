@@ -5,11 +5,10 @@ import React from 'react'
 
 
 function Gallery (props) {
-  console.log(props.logements)
+
   return (
     <div className='gallery'>
       {props.logements.map((logement)=> (
-
           <Thumb key={logement.id}
           id = {logement.id}
           cover = {logement.cover}
@@ -18,8 +17,6 @@ function Gallery (props) {
       ))}
     </div> 
     )
-
-
 }
 
 export default Gallery

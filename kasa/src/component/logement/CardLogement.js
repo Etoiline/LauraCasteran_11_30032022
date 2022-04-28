@@ -5,16 +5,14 @@ import RateLogement from './RateLogement'
 import Collapse from '../Collapse'
 import Slider from '../slider/Slider'
 
+/* Composant qui crée la page d'un logement passé en paramètre */
 
 
 function CardLogement (props) {
   //console.log('equipement',props.logement.equipments)
   const name = props.logement.host.name.split(' ')
   const equipments = props.logement.equipments.join('\n')
-  if(props.logement.pictures.length===1){
-    console.log('juste 1 image')
-    console.log(props.logement.pictures)
-  }
+
   const ShowSlide = () => {
     if (props.logement.pictures.length===1){
       console.log(props.logement.pictures)

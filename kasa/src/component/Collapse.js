@@ -3,6 +3,7 @@ import "../styles/desktop/Collapse.css"
 import "../styles/mobile/Collapse.mobi.css"
 import React from 'react'
 
+/* Composant servant à afficher les collapses */
 
 function Collapse (props){
   //console.log('content', props.elt[1])
