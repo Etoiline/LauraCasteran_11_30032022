@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
+import {BrowserRouter as Router, Route, Routes, HashRouter} from 'react-router-dom'
 import './styles/desktop/index.css'
 import './styles/mobile/index.mobi.css'
 import Home from './pages/home/Home'
@@ -14,7 +14,7 @@ import Logement from './pages/logement/Logement'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Router>
+    <Router basename="/LauraCasteran_11_30032022">
       <Routes>
       <Route path="/" element={<Template />}>
         <Route index element={<Home />} />
