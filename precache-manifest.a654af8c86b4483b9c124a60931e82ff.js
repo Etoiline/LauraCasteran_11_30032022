@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "cf99fbc84a05253a5c2e",
+    "revision": "e72cb5fc2a8bb09c6907",
     "url": "/LauraCasteran_11_30032022/static/css/main.11873ec1.chunk.css"
   },
   {
-    "revision": "cf99fbc84a05253a5c2e",
-    "url": "/LauraCasteran_11_30032022/static/js/main.224c5e76.chunk.js"
+    "revision": "e72cb5fc2a8bb09c6907",
+    "url": "/LauraCasteran_11_30032022/static/js/main.60dc3f24.chunk.js"
   },
   {
     "revision": "b702830eba5a967e0656",
     "url": "/LauraCasteran_11_30032022/static/js/runtime~main.60fd1bb7.js"
   },
   {
-    "revision": "42979a76bab2a359a730",
-    "url": "/LauraCasteran_11_30032022/static/js/2.f812a73e.chunk.js"
+    "revision": "2d44b38f8b0e83d3d3f8",
+    "url": "/LauraCasteran_11_30032022/static/js/2.999285e0.chunk.js"
   },
   {
     "revision": "389a8da7c6d30647ce97c73a0b758a72",
@@ -28,7 +28,7 @@ self.__precacheManifest = [
     "url": "/LauraCasteran_11_30032022/static/media/aPropos.mobi.7d799f28.png"
   },
   {
-    "revision": "a9310e81eba83aabdec05e54cf184e65",
+    "revision": "d90bdaf3f155b99a0c46fe23a36c0df8",
     "url": "/LauraCasteran_11_30032022/index.html"
   }
 ];
