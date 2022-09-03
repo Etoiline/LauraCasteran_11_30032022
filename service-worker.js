@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/LauraCasteran_11_30032022/precache-manifest.5046ad2491f99ff31f5e363a11c1f4dc.js"
+  "/LauraCasteran_11_30032022/precache-manifest.0464cfa037b133d6dda6f26b907176cd.js"
 );
 
 workbox.clientsClaim();
