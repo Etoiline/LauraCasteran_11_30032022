@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "68cd6e4ece1fae037552",
+    "revision": "d363fad874d388ff3a74",
     "url": "/LauraCasteran_11_30032022/static/css/main.11873ec1.chunk.css"
   },
   {
-    "revision": "68cd6e4ece1fae037552",
-    "url": "/LauraCasteran_11_30032022/static/js/main.bbc66f5c.chunk.js"
+    "revision": "d363fad874d388ff3a74",
+    "url": "/LauraCasteran_11_30032022/static/js/main.1bd96bb6.chunk.js"
   },
   {
     "revision": "b702830eba5a967e0656",
@@ -28,7 +28,7 @@ self.__precacheManifest = [
     "url": "/LauraCasteran_11_30032022/static/media/aPropos.mobi.7d799f28.png"
   },
   {
-    "revision": "afbea7a6d51d0b83097bbf2100fa49d8",
+    "revision": "12961cac0a5f4696c903df3171be0aaf",
     "url": "/LauraCasteran_11_30032022/index.html"
   }
 ];
